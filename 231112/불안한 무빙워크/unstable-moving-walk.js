@@ -10,14 +10,14 @@ function main() {
     while(1) {
         count++;
         first();
-        console.log("origin", origin)
-        console.log("people", people)
+        // console.log("origin", origin)
+        // console.log("people", people)
         second();
-        console.log("origin", origin)
-        console.log("people", people)
+        // console.log("origin", origin)
+        // console.log("people", people)
         third();
-        console.log("origin", origin)
-        console.log("people", people)
+        // console.log("origin", origin)
+        // console.log("people", people)
         if(origin.filter(e=>e===0).length >= k) return count;
     }
 }
